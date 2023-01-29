@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: "Lato","ARIAL" ,sans-serif;
+    font-weight: 400;
+    background-color: #222;
+}
+.header{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 28px 0 140px 0;
+    background-image: url(./image/svg/versus\ svg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 49px;
+}
+.container{
+    width: 100%;
+    max-width: 940px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 138px;
+
+}
+.site-logo{
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+}
+.site-nav{
+    display: flex;
+    gap: 40px;
+    
+}
+.site-nav__item{
+    list-style: none;
+}
+.site-link{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #999;
+    transition: all , 0.4s;
+    transition-timing-function:ease;
+}
+.site-link:hover{
+    color: #00D6B4;
+}
+
+.versus-title{
+    margin: 0 auto;
+    max-width: 500px;
+    font-size: 48px;
+    line-height: 53px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 29px;
+}
+.get-quate{
+    display: flex;
+    justify-content: center;
+}
+.get{
+    border: 1px solid #00D6B4;
+    border-radius: 3px;
+    padding: 10px 26px;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #00D6B4;
+}
+
+/* MAIN */
+.all-box{
+    border-radius: 3px;
+}
+
+.grid__title{
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 33px;
+}
+
+.grid__picture{
+    display: grid;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 940px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px 22px;
+    margin-bottom: 101px;
+}
+
+
+/* FOOTER */
+
+.footer{
+    width: 100%;
+    max-width: 940px;
+    padding: 15px;
+    margin: 0 auto;
+    padding: 35px 0 37px 0;
+}
+
+.footer__title{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #c2c2c2;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.footer__text{
+    font-family: "Open Sans" ,"ARIAL", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #999;
+}
